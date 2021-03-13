@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cookie_Sales</title>
+</head>
+<body>
+    <header>  
+         <nav>
+          <h2>TOM'S<span>Salmon Cookies</span></h2>
+            <ul>
+                 <li><a href="#">HOME</a></li>
+                 <li><a href="#">SHOP</a></li>
+                 <li><a href="#">ABOUT US</a></li>
+            </ul>
+         </nav>
+          <img class="logo" src="./img/salmoncookielogoT.png" alt="">
+    </header>
+    <!-- main heeeeeereeee -->
+    <main>
+    <div class="making the form">
+      <form id="add-shop-form">
+        <fieldset>
+          <legend>Add a New Store</legend>
+    
+          <label for="location">Shop Location: </label>
+          <input type="text" name="new_location" placeholder="ENTER LOCATION" required >
+    
+          <label for="mincustomer">Minimum Customers per Hour: </label>
+          <input type="number" name="mincustomer" placeholder="ENTER MIN_CUSTOMER" required min="1">
+           <br/>
+          <label for="maxcustomer">Maximum Customers per Hour: </label>
+          <input type="number" name="maxcustomer" placeholder="ENTER MAX_CUSTOMER" required min="1">
+    
+          <label for="avgcookies">Cookies per Sale</label>
+          <input type="number" name="avgcookies" step="0.1" required placeholder="AVG_COOKIES" min="1">
+           <input type="submit">
+         </fieldset>
+      </form>
+    </div>
+    <div class="making the table ">
+
+        <table id="infotable">
+            <caption><em><b>Information Table</b></em></caption>
+        </table>
+    </div> 
+    <!-- end of main   -->
+    </main>
+<script src="./js/Saadoun.js"></script>
+</body>
+</html>

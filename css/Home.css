@@ -1,0 +1,229 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(rgba(75, 75, 82, 0.5), rgba(92, 92, 82, 0.5)), url("./img/salmon.jpg ");
+  background-image: cover;
+}
+/*  here is styling for the booooooooody */
+header {
+ width: 100%;
+ height: 120px;
+ background-color: #9b0b3b;
+}
+h1 {
+  position: absolute;
+  padding: 5px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 10px;
+  color: #e21156;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  
+}
+span {
+  color: #ffffff;
+  letter-spacing: 0.3em;
+   font-size: 25px;
+}
+ul {
+  width: auto;
+  float: right;
+  margin-top: 5px;
+}
+li {
+ display: inline-block;
+ padding: 15px 30px;
+}
+a {
+ text-align: center;
+ color: #ffffff;
+ text-decoration: none;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 1.2vw;
+}
+a:hover{
+  color: #f0c330;
+  transition :0.5s; 
+}
+/*  ///////////////////////////////////////////////////////////////////////////    */
+/* add cursor to the img logo */
+.logo {
+  width: 200px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+/* main */
+.sec1 {
+  border: #9b0b3b 15px ridge;
+  border-radius: 7%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+  box-shadow: 1px 2px #9b0b3b;
+  height: 300px;
+  margin-bottom: 20px;
+}
+section:first-child{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.salmon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 40%;
+}
+/*          COPYED THE EFFECT                    */
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.salmon:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+.lable1 {
+  text-align: center;
+  font-size: 30px;
+  color: #160404;
+  font-weight: 30px;
+}
+.header2{
+  text-align: center;
+  font-size: 30px;
+  color: #160404;
+  font-weight: 30px;
+}
+.sec2{
+
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 20px;
+  height: 300px;
+  transition: transform 0.5s;
+}
+.imgx{
+  border-radius: 50%;
+  padding: 30px;
+  width: 300px;
+  margin-left: 60px;
+}
+.imgx:hover{
+  transform: translateY(-10px);
+}
+.history{
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace; 
+  color: #9b0b3b;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.productnames{
+  display: table;
+  margin: 0 auto;
+
+}
+.ul-try{
+ float: right; 
+}
+.names{
+display: inline-block;
+}
+.li_try{
+  font-size: 20px;
+  padding: 80px;
+  color: #9b0b3b;
+}
+
+footer{
+  margin-top: 60px;
+
+}
+footer h2 {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #9b0b3b;
+  text-align: center;
+}
+.contact {
+  position: relative;
+  left: 41%;
+  padding: 20px;
+}
+
+
